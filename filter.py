@@ -14,8 +14,8 @@ while i < a:
             for n1 in range(j, j + 10):
                 # n1 -> nR
                 nR = arr[n][n1][0]
-                nG = arr[n][n1][0]
-                nB = arr[n][n1][0]
+                nG = arr[n][n1][1]
+                nB = arr[n][n1][2]
                 M = (int(nR) + int(nG) + int(nB))/3
                 s += M
         s = int(s // 100)
